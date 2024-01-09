@@ -1,0 +1,204 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font: 112.5%/1.625 -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-variant-alternates: normal;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  font-variant-position: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 112.5%;
+  line-height: 1.625;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+nav{
+  display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px auto;
+    width: 100%;
+    min-height: 60px;
+    padding: 0px 1.5rem;
+
+}
+
+.logo{
+  width: 40px;
+  height: 40px;
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+}
+nav span{
+  margin: 0px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    border: 1px solid rgb(255, 152, 0);
+    background: transparent;
+    color: rgb(51, 51, 51);
+    transition: all 0.1s ease 0s;
+    font-size: 0.75em
+    
+}
+nav span:hover{
+  background-color: rgb(255, 152, 0) ;
+  color: white;
+}
+.list a{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  transition: color 0.1s;
+}
+.list a:hover {
+  color: rgb(255, 152, 0);
+}
+
+.header{
+  width: 100%;
+  height: 100%;
+  fill: rgb(245, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-title{
+  margin: 0px;
+    color: rgb(32, 35, 41);
+    border: none;
+    font-weight: 900;
+    z-index: 1;
+    font-size: 5.625rem;
+    position: absolute;
+    text-align: center;
+  
+}
+.body{
+  display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 4.5rem 0px;
+    background: rgb(39, 43, 51);
+    min-height: calc(50vh - 60px);
+}
+.showcase{
+  display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1920px;
+}
+.headerbackgr{
+  width: 345px;
+  height: 315px;
+}
+.footer{
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-flow: column;
+  position: relative;
+  background: rgb(32, 35, 41);
+  color: rgb(158, 158, 158);
+  padding: 4.5rem 0px;
+  min-height: calc(120px);
+  width: 100%;
+}
+
+.footer ul{
+  display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.footer ul a{
+  margin: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    color: rgb(158, 158, 158);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.1s;
+}
+.footer ul a:hover{
+  color: rgb(255, 152, 0);
+}
+.server{
+  margin: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    color: rgb(158, 158, 158);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.1s;
+}
+.server:hover{
+  color: rgb(255, 152, 0);
+}
+.footer a span{
+  max-height: 3px;
+  padding: 4px;
+  margin: 5px;  
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 50%;
+  background: rgb(85, 204, 68);
+}
+.ayudas{
+  margin-top: 1.25rem;
+}
+.ayudas a img{
+  height: 50px;
+  width: 125px;
+}
+.Contacto{
+  margin-top: 1.25rem;
+}
+.footer span{
+  font-size: 0.75em;
+}
+.footer span a{
+  font-weight: bold;
+    transition: color 0.2s ease 0s;
+    color: rgb(245, 245, 245);
+    border-bottom: 1px solid rgb(255, 152, 0);
+    text-decoration: none;
+}
+.footer span a:hover{
+border-bottom: 0px;
+color: rgb(255, 152, 0);
+}

@@ -12,6 +12,7 @@ import { CharacterList } from './CharacterList.js'
 
 
 export default function App() {
+
   return (
     <div>
       <nav>
@@ -32,8 +33,8 @@ export default function App() {
       </div>
       <div className="body">
         <div className="showcase">
-        {CharacterList.map((Link) => { 
-          return <Character Link={Link.CharLink} />;
+        {CharacterList?.map((Link) => { 
+          return <Character key={Link.CharLink.split("/").pop()} Link={Link.CharLink} />;
           })}
         </div>
       </div>

@@ -66,6 +66,7 @@ nav span:hover{
 .list a{
   margin-left: 15px;
   margin-right: 15px;
+  font-size: 0.9em;
   font-weight: 700;
   text-decoration: none;
   color: rgb(51, 51, 51);
@@ -77,7 +78,7 @@ nav span:hover{
 
 .header{
   width: 100%;
-  height: 100%;
+  height: 42vh;
   fill: rgb(245, 245, 245);
   display: flex;
   justify-content: center;
@@ -89,7 +90,7 @@ nav span:hover{
     border: none;
     font-weight: 900;
     z-index: 1;
-    font-size: 5.625rem;
+    font-size: 5rem;
     position: absolute;
     text-align: center;
   
@@ -100,9 +101,9 @@ nav span:hover{
     justify-content: center;
     -webkit-box-align: center;
     align-items: center;
-    padding: 4.5rem 0px;
+    padding: 4rem 0px;
     background: rgb(39, 43, 51);
-    min-height: calc(50vh - 60px);
+    min-height: calc(50vh - 1000px);
 }
 .showcase{
   display: flex;
@@ -115,7 +116,8 @@ nav span:hover{
 }
 .headerbackgr{
   width: 345px;
-  height: 315px;
+  height: 300px;
+  margin-bottom: 2.5vh;
 }
 .footer{
   display: flex;
@@ -128,7 +130,7 @@ nav span:hover{
   background: rgb(32, 35, 41);
   color: rgb(158, 158, 158);
   padding: 4.5rem 0px;
-  min-height: calc(120px);
+  height: 350px;
   width: 100%;
 }
 
@@ -145,7 +147,7 @@ nav span:hover{
 }
 .footer ul a{
   margin: 0.25rem 0.5rem;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     color: rgb(158, 158, 158);
     text-transform: uppercase;
     text-align: center;
@@ -158,7 +160,7 @@ nav span:hover{
 }
 .server{
   margin: 0.25rem 0.5rem;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     color: rgb(158, 158, 158);
     text-transform: uppercase;
     text-align: center;
@@ -189,7 +191,7 @@ nav span:hover{
   margin-top: 1.25rem;
 }
 .footer span{
-  font-size: 0.75em;
+  font-size: 0.7em;
 }
 .footer span a{
   font-weight: bold;

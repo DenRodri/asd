@@ -1,22 +1,22 @@
 export const CharacterList = [
     {
-        CharLink: "https://rickandmortyapi.com/api/character/15"
+        CharLink: "https://rickandmortyapi.com/api/character/198"
 
     },
     {
-        CharLink: "https://rickandmortyapi.com/api/character/220"
+        CharLink: "https://rickandmortyapi.com/api/character/254"
     },
     {
-        CharLink: "https://rickandmortyapi.com/api/character/230"
+        CharLink: "https://rickandmortyapi.com/api/character/332"
     },
     {
-        CharLink: "https://rickandmortyapi.com/api/character/484"
+        CharLink: "https://rickandmortyapi.com/api/character/432"
     },
     {
-        CharLink: "https://rickandmortyapi.com/api/character/566"
+        CharLink: "https://rickandmortyapi.com/api/character/560"
     },
     {
-        CharLink: "https://rickandmortyapi.com/api/character/791"
+        CharLink: "https://rickandmortyapi.com/api/character/633"
     },
     
 ]
